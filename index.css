@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "blaka";
+    src: url("/fuentes/Blaka-Regular.ttf");
+}
+
+.lista-nav{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 10px;
+    padding: 0;
+   
+
+
+}
+body{
+    background: rgb(7,44,45);
+    background: linear-gradient(0deg, rgba(7,44,45,1) 0%, rgba(253,187,45,0.17690826330532217) 100%);
+   
+}
+
+nav {
+    width: 30%;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.imglogo{
+    border-radius: 110px;
+}
+.container{
+    font-family: "blaka";
+    font-size: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-img-padre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container-img{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+    
+}
+img{
+    border-radius: 150px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.button{
+    width: 25%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    margin-top: 30px;
+    font-family: "blaka";
+    font-size: 1.8em;
+    
+   
+}
+
